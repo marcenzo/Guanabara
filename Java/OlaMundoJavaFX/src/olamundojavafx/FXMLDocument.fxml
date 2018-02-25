@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" blendMode="DIFFERENCE" opacity="0.74" prefHeight="175.0" prefWidth="341.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="olamundojavafx.FXMLDocumentController">
+   <children>
+      <Label fx:id="labelMensagem" layoutX="90.0" layoutY="47.0" prefHeight="47.0" prefWidth="176.0" text="Mensagem Aparece.">
+         <font>
+            <Font name="28 Days Later" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonClica" layoutX="126.0" layoutY="116.0" mnemonicParsing="false" onAction="#clicaNoBotao" text="Aperte aqui" />
+   </children>
+</AnchorPane>
